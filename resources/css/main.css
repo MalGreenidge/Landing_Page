@@ -1,0 +1,129 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* General Styling */
+#hero, footer, header {
+    background: #1f2937;
+}
+
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+/* Hero Section */
+#hero { 
+    height: 500px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#hero p, .nav-link {
+    font-size: 18px;
+}
+
+.hero-info {
+    width: 500px;
+    padding: 20px;
+}
+
+.hero-info p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.nav-link {
+    color: #e5e7eb;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    color: #f9faf8;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.button {
+    background-color: #3882f6;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.hero-image {
+    height: 300px;
+    width: 500px;
+    
+}
+
+
+/* Info Section */
+#info {
+    height: 500px;
+    background: #f9faf8;
+    text-align: center;
+}
+
+#info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 25px;
+}
+#info img {
+    height: 200px;
+    width: 250px;
+    border: solid 5px #3882f6;
+    border-radius: 25px;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.info-img p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+/* CTA Section */
+
+/* Footer Section */
+footer {
+    height: 100px;
+}
