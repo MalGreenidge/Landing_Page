@@ -1,15 +1,20 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Press+Start+2P&family=Roboto&display=swap');
 
 /* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* General Styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #hero, footer, header {
     background: #1f2937;
 }
@@ -119,9 +124,53 @@ h1 {
 #testimonials {
     background-color: #E5E7EB;
     height: 400px;
+    font-size: 36px;
+    font-family: 'Arima Madurai', cursive;
+    font-style: italic;
+    font-weight: 600;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    width: 50%;
+}
+
+#testimonials aside {
+    font-family: 'Roboto';
+    font-size: 28px;
+    float: right;
+    
 }
 
 /* CTA Section */
+#cta {
+    background: #3882f6;
+    color: #f9faf8;
+    height: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.cta-button button {
+    background: #3882f6;
+    color: #e5e7eb;
+    font-size: 20px;
+    padding: 18px;
+    border: #e5e7eb solid;
+    border-radius: 20px;
+}
 
 /* Footer Section */
 footer {
